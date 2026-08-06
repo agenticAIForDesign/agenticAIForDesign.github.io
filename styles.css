@@ -286,16 +286,6 @@ p {
   object-position: center 35%;
 }
 
-.headshot-placeholder {
-  display: grid;
-  place-items: center;
-  background: #f3f4f6;
-  color: var(--muted);
-  font-size: 0.75rem;
-  line-height: 1.35;
-  text-align: center;
-}
-
 .institution-header {
   display: flex;
   min-height: 72px;
@@ -368,6 +358,10 @@ p {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+}
+
+.georgia-headshot {
+  object-position: 42% 25%;
 }
 
 .student-mascot {
